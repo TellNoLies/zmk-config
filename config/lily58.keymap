@@ -23,10 +23,10 @@
 		default_layer {
 
 			bindings = <
-&kp TAB   &kp Q    &kp W    &kp F        &kp P        &kp G                             &kp Y       &kp L    &kp U        &kp Y      &kp SEMI     &kp BSLH
-&kp BSPC  &kp A    &kp R    &kp S        &kp T        &kp D                             &kp H       &kp N    &kp E        &kp I      &kp O        &kp SQT
-&kp LSHFT &kp Z    &kp X    &kp C        &kp V        &kp B                             &kp K       &kp M    &kp COMMA    &kp DOT    &kp FSLH     &kp RENT
-&kp LCTRL &kp LALT &kp LGUI &kp LA(LEFT) &kp LA(RIGHT) &kp F5  &kp ESC     &kp LS(TAB)  &kp C_STOP  &kp C_PP &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP &kp RGUI
+&kp TAB   &kp N1   &kp N2   &kp N3   &kp N4    &kp N5                          &kp N6     &kp N7   &kp N8    &kp N9   &kp N0    &kp CAPS
+&kp BSPC  &kp Q    &kp W    &kp F    &kp P     &kp G                           &kp J      &kp L    &kp U     &kp Y    &kp SEMI  &kp BSLH
+&kp LSHFT &kp A    &kp R    &kp S    &kp T     &kp D                           &kp H      &kp N    &kp E     &kp I    &kp O     &kp SQT
+&kp LCTRL &kp Z    &kp X    &kp C    &kp V     &kp B  &kp ESC     &kp LS(TAB)  &kp K      &kp M    &kp COMMA &kp DOT  &kp FSLH  &kp RENT
                         &mo 3            &kp LGUI  &mo 1  &kp SPACE        &kp SPACE    &mo 2      &kp BSPC   &mo 3
 			>;
 
@@ -36,10 +36,10 @@
 		lower_layer {
 
 			bindings = <
-&kp K_APP  &kp PG_UP &kp HOME  &kp UP    &kp END   &kp INS                     &kp KP_NUM   &kp KP_7    &kp KP_8     &kp KP_9    &trans          &trans
-&kp DEL    &kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT &kp PSCRN                   &kp KP_CLEAR &kp KP_4    &kp KP_5     &kp KP_6    &kp KP_PLUS     &kp KP_MINUS
-&kp LSHFT  &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp CAPS                    &kp KP_0     &kp KP_1    &kp KP_2     &kp KP_3    &kp KP_MULTIPLY &kp KP_SLASH
-&trans   &kp K_UNDO &kp K_REDO &trans    &trans    &trans   &tog GME   &mo 3   &kp KP_LPAR  &kp KP_RPAR &kp KP_COMMA &kp KP_DOT  &kp KP_EQUAL    &kp RENT
+&kp K_APP  &kp PG_UP &kp HOME  &kp UP  &kp END  &kp PSCRN                     &kp KP_NUM   &kp KP_7    &kp KP_8     &kp KP_9    &trans          &trans
+&kp ESC    &kp PG_DN &kp HOME  &kp UP  &kp END  &kp INS                  &kp KP_CLEAR &kp KP_4    &kp KP_5     &kp KP_6    &kp KP_PLUS     &kp KP_MINUS
+&kp DEL  &kp LC(Z) &kp LEFT &kp DOWN &kp RIGHT &kp CAPS                    &kp KP_0     &kp KP_1    &kp KP_2     &kp KP_3    &kp KP_MULTIPLY &kp KP_SLASH
+&kp LSHFT   &kp K_UNDO &kp K_REDO &trans    &trans    &trans   &tog GME   &mo 3   &kp KP_LPAR  &kp KP_RPAR &kp KP_COMMA &kp KP_DOT  &kp KP_EQUAL    &kp RENT
 										&trans     &trans   &trans     &trans  &trans    &trans    &trans    &trans
 			>;
 
